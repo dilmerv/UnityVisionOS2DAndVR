@@ -1,0 +1,202 @@
+{
+    "name": "VisionOSInputActions",
+    "maps": [
+        {
+            "name": "VisionPro2D",
+            "id": "e84e7689-65a7-4623-9231-4ab8b3f0dcd4",
+            "actions": [
+                {
+                    "name": "TouchTap",
+                    "type": "Button",
+                    "id": "51a0df12-69a9-413d-9a0e-e11a883349b0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TouchPosition",
+                    "type": "Value",
+                    "id": "7d48fea7-f8f5-470b-a706-170ee1770dae",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b546b02d-e053-40fc-9626-bc794fee822f",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchTap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "55299870-9d5b-4a62-83e0-7d029222817c",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TouchPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "VisionProVR",
+            "id": "80dbebf7-f35f-460a-96fb-e43f23424b9f",
+            "actions": [
+                {
+                    "name": "LeftHandPosition",
+                    "type": "Value",
+                    "id": "789ae4e1-ddb3-47d9-b0af-0f0ee6bcbf57",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "LeftHandRotation",
+                    "type": "Value",
+                    "id": "e81567f2-f736-4cd6-9c4f-fd75f3061417",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightHandPosition",
+                    "type": "Value",
+                    "id": "345373c8-6f06-4320-b35d-a7a24ab1d91c",
+                    "expectedControlType": "Vector3",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "RightHandRotation",
+                    "type": "Value",
+                    "id": "e0525703-a8f7-4a64-a294-06273ba2466a",
+                    "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PrimarySpatialPointer",
+                    "type": "Value",
+                    "id": "e1bad259-e6ae-4b00-963e-694c0d200f71",
+                    "expectedControlType": "VisionOSSpatialPointer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "FirstSpatialPointer",
+                    "type": "Value",
+                    "id": "d04f5c5b-7d5d-44e7-99d8-3ab1a3ac501d",
+                    "expectedControlType": "VisionOSSpatialPointer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SecondSpatialPointer",
+                    "type": "Value",
+                    "id": "5f8460cc-ebd1-4a54-b73e-a73c9e70b004",
+                    "expectedControlType": "VisionOSSpatialPointer",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "d690de77-008e-4e70-909e-94d60ae4bf18",
+                    "path": "<XRHandDevice>{LeftHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftHandPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "77e124d1-6c74-4c6e-aac2-943859d248b6",
+                    "path": "<XRHandDevice>{LeftHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftHandRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "caa752a8-9cbf-4282-978e-ea7ff6279312",
+                    "path": "<XRHandDevice>{RightHand}/deviceRotation",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightHandRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "df1b3b90-a118-4825-ab0d-c286d199314a",
+                    "path": "<XRHandDevice>{RightHand}/devicePosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightHandPosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "150f3124-39f3-436d-8889-5894a5a434ab",
+                    "path": "<VisionOSSpatialPointerDevice>/primarySpatialPointer",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimarySpatialPointer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "728d4644-dace-477a-b385-165e73d4d59b",
+                    "path": "<VisionOSSpatialPointerDevice>/spatialPointer0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FirstSpatialPointer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8c0d6b52-0a0b-4e49-8443-73b14a0b791c",
+                    "path": "<VisionOSSpatialPointerDevice>/spatialPointer1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondSpatialPointer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
