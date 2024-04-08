@@ -1,6 +1,6 @@
-# Unity VisionOS 2D And Full Immersive Demos
+# Unity VisionOS 2D And Fully Immersive (VR) Demos
 
-A ready to deploy Vision Pro project which includes 2D Windowed and Full Immersive (VR) samples as I teach visionOS development with Unity on [YouTube](https://www.youtube.com/@dilmerv).
+A ready to deploy Vision Pro project which includes 2D Windowed and Fully Immersive (VR) samples as I teach visionOS development with Unity on [YouTube](https://www.youtube.com/@dilmerv).
 
 ### 📷 Videos:
 
