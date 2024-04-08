@@ -16,6 +16,6 @@ A ready to deploy Vision Pro project which includes 2D Windowed and Full Immersi
 |**Unity visionOS Demos**|
 |:-:|
 |WindowedDemo.unity scene|
-|<img src="https://github.com/dilmerv/UnityVisionOS2DAndVR/blob/master/Docs/Images/WindowedDemo.gif" width="560">|
+|<img src="https://github.com/dilmerv/UnityVisionOS2DAndVR/blob/master/docs/images/WindowedDemo.gif" width="560">|
 |FullImmersiveVRDemo.unity scene|
-|<img src="https://github.com/dilmerv/UnityVisionOS2DAndVR/blob/master/Docs/Images/FullImmersiveVRDemo.gif" width="560">|
+|<img src="https://github.com/dilmerv/UnityVisionOS2DAndVR/blob/master/docs/images/FullImmersiveVRDemo.gif" width="560">|
